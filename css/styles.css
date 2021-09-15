@@ -7759,7 +7759,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: #204E5E; !important;
 }
 
 .text-black-50 {
@@ -7826,6 +7826,8 @@ textarea.form-control-lg {
 .bg-light {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background: linear-gradient(160deg, #AAFAFA, #4BB5F2);
+
 }
 
 .bg-dark {
@@ -11283,7 +11285,7 @@ html {
 }
 
 .bg-gradient-primary-to-secondary {
-  background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
+  background: linear-gradient(45deg, #2937f0, #49A1EB) !important;
 }
 
 .font-alt {
@@ -11412,9 +11414,15 @@ section.cta:before {
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
 }
+.masthead{
+  background: linear-gradient(20deg, #AAFAFA, #4BB5F2);
+}
 
 .icon-feature {
   font-size: 4rem;
+}
+#features{
+  background: linear-gradient(20deg, #AAFAFA, #4BB5F2);
 }
 
 .features-device-mockup {
